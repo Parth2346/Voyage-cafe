@@ -1,0 +1,6 @@
+{
+  "name": "The Voyage Cafe",
+  "description": "An elegant, premium website for The Voyage, featuring curated signatures, visual atmosphere, menu selection, and reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

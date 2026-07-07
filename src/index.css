@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", "EB Garamond", serif;
+  --font-sans: "Manrope", sans-serif;
+
+  /* Custom palette matching 'Natural Tones' */
+  --color-brand-brown: #2D2A26;       /* Deep warm dark brown / charcoal */
+  --color-brand-brown-light: #5A5A40; /* Signature Olive green */
+  --color-brand-beige: #A69D8E;       /* Sand/Tan for subtle labels and borders */
+  --color-brand-gold: #DED9CE;        /* Mid-tone sand-beige */
+  --color-brand-cream: #FDFBF7;       /* Soft light cream canvas background */
+  --color-brand-cream-dark: #F5F1EA;  /* Saturated warm sand-cream for card/block backgrounds */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-cream);
+    color: #3D3B3C;
+  }
+}
+
+/* Hide scrollbar for review carousel */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
